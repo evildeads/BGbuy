@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="bgbuylogo.png">
+</head>
+<body>
+	<header>
+    	<div class="logo">
+			<a href="index.html"><img src="bgbuylogo.png" alt="BG buy"></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Shop Prime</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li class="active"><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<h1>Contact Us</h1>
+		<p>If you have any questions, comments or concerns, please don't hesitate to contact us.</p>
+		
+		<form method="post" action="submit-form.php">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+			
+			<input type="submit" value="Send">
+		</form>
+		
+		<p>Alternatively, you can reach us by:</p>
+		<ul>
+			<li>Phone: +359 XX XXXXXXXX</li>
+			<li>Email: XXXXXXXXXX@gmail.com</li>
+			<li>Address: Residential Park Sofia Bulgaria</li>
+		</ul>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 BG buy. All rights reserved.</p>
+	</footer>
+</body>
+</html>
